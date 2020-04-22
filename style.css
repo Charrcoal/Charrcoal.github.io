@@ -19,10 +19,11 @@ body{
 
 
 .content{
-    padding: 5px 20px 10px;
-    margin: 20px 5px;
-    margin-bottom: 5%;
+    padding: 25px 25px 10px;
+    margin-top: 20px;
+    margin-bottom: 10%;
     background-color: white;
+
 }
 
 .header{
@@ -76,8 +77,15 @@ img{
   text-align: center;
   padding-top:10px;
   padding-bottom:5px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
 }
+
+
+@media(max-height: 3000px){
+  .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
